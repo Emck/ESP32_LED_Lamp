@@ -18,12 +18,12 @@ void setup() {
 void loop() {
     /*
     Serial.println("turn the LED On");
-    digitalWrite(LED_LAMP, HIGH); // turn the LED On (HIGH is the voltage level)
-    delay(2000);                  // wait for 2 second
+    digitalWrite(LED_LAMP, HIGH);  // turn the LED On (HIGH is the voltage level)
+    delay(2000);                   // wait for 2 second
 
     Serial.println("turn the LED Off");
-    digitalWrite(LED_LAMP, LOW); // turn the LED Off by making the voltage LOW
-    delay(2000);                 // wait for 2 second
+    digitalWrite(LED_LAMP, LOW);  // turn the LED Off by making the voltage LOW
+    delay(2000);                  // wait for 2 second
     */
 
     if (touchRead(TOUTCH_PIN) > 40) {
